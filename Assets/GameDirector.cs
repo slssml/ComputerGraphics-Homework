@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using TMPro;
 
 public class GameDirector : MonoBehaviour
@@ -19,11 +19,11 @@ public class GameDirector : MonoBehaviour
         float length = this.flag.transform.position.x - this.car.transform.position.x;
         if (length >= 0)
         {
-            this.distance.GetComponent<TextMeshProUGUI>().text = "¸ñÇ¥ ÁöÁ¡±îÁö: " + length.ToString("F2") + "m";
+            this.distance.GetComponent<TextMeshProUGUI>().text = "ëª©í‘œ ì§€ì ê¹Œì§€: " + length.ToString("F2") + "m";
         }
         else
         {
-            this.distance.GetComponent<TextMeshProUGUI>().text = "°ÔÀÓ ¿À¹ö";
+            this.distance.GetComponent<TextMeshProUGUI>().text = "ê²Œì„ ì˜¤ë²„";
         }
     }
 }
