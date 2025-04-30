@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using TMPro;
+﻿using TMPro;
+using UnityEngine;
 
 public class GameDirector : MonoBehaviour
 {
@@ -14,6 +14,7 @@ public class GameDirector : MonoBehaviour
         this.distance = GameObject.Find("Distance");
     }
 
+    // Update is called once per frame
     void Update()
     {
         float length = this.flag.transform.position.x - this.car.transform.position.x;

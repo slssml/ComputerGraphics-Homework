@@ -10,6 +10,7 @@ public class CarController : MonoBehaviour
         Application.targetFrameRate = 60;
     }
 
+    
     void Update()
     {
         // 스와이프의 길이를 구한다. (추가)
